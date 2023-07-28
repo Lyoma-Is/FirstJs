@@ -38,7 +38,6 @@ let numX = 10, numY = 7;
 
 numX > numY ? console.log(" 3. ", "x больше, чем y") : console.log(" 3. ", "x не больше, чем y");
 
-
 // 4
 
 let enterNum = 12; //prompt("Введите число");
@@ -50,31 +49,11 @@ else{
     console.log(" 4. ", `Число ${enterNum} нечетное`);
 }
 
-
 // 5
 
-let numOne = Number(prompt("first number:"));
-let numTwo = Number(prompt("second number:"));
-let numThree = Number(prompt("third number:"));
+let numOne = prompt("first number:");
+let numTwo = prompt("second number:");
+let numThree = prompt("third number:");
 
-if (numOne > numTwo && numOne > numThree){
-    console.log(" 5. ", numOne);
-}
-else if(numTwo > numOne && numTwo > numThree){
-    console.log(" 5. ", numTwo);
-}
-else{
-    console.log(" 5. ", numThree);
-}
-
-// 5
-
-// let mxNum = 0;
-// for (let i = 0; i < 3; i++){
-//     let numFor = Number(prompt(`Введите ${i+1} число`));
-//     if (numFor > mxNum){
-//         mxNum = numFor;
-//     }
-// }
-// console.log(" 5. ", mxNum);
+console.log(" 5. ", Math.max(numOne, numTwo, numThree));
 
