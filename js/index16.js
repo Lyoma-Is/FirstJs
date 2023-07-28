@@ -40,7 +40,7 @@ numX > numY ? console.log(" 3. ", "x больше, чем y") : console.log(" 3.
 
 // 4
 
-let enterNum = 12; //prompt("Введите число");
+let enterNum = prompt("Введите число");
 
 if (enterNum % 2 == 0){
     console.log(" 4. ", `Число ${enterNum} четное`);
