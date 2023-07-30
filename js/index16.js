@@ -1,59 +1,71 @@
-// 1
-const numConst = 8;
+// // 1
+// const numConst = 8;
 
-if (numConst < 10){
-    console.log(" 1. ", "константа меньше 10");
-}
-else{
-    console.log(" 1. ", "константа не меньше 10");
-}
+// if (numConst < 10){
+//     console.log(" 1. ", "константа меньше 10");
+// }
+// else{
+//     console.log(" 1. ", "константа не меньше 10");
+// }
 
-// 2
+// // 2
 
-let strVar1 = prompt("Enter word 1:");
-let strVar2 = prompt("Enter word 2:");
+// let strVar1 = prompt("Enter word 1:");
+// let strVar2 = prompt("Enter word 2:");
 
-if (strVar1.length > strVar2.length){
-    console.log(" 2. ", strVar1);
-}
-else if(strVar1.length === strVar2.length){
-    console.log(" 2. ", "equal");
-}
-else{
-    console.log(" 2. ", strVar2);
-}
+// if (strVar1.length > strVar2.length){
+//     console.log(" 2. ", strVar1);
+// }
+// else if(strVar1.length === strVar2.length){
+//     console.log(" 2. ", "equal");
+// }
+// else{
+//     console.log(" 2. ", strVar2);
+// }
 
-switch(strVar1){
-    case 'css': console.log(" 2. ", strVar1);
-    break;
-    case "html": console.log(" 2. ", strVar1);
-    break;
-    default: console.log(" 2.  default");
-    break;
-}
+// switch(strVar1){
+//     case 'css': console.log(" 2. ", strVar1);
+//     break;
+//     case "html": console.log(" 2. ", strVar1);
+//     break;
+//     default: console.log(" 2.  default");
+//     break;
+// }
 
-// 3
+// // 3
 
-let numX = 10, numY = 7;
+// let numX = 10, numY = 7;
 
-numX > numY ? console.log(" 3. ", "x больше, чем y") : console.log(" 3. ", "x не больше, чем y");
+// numX > numY ? console.log(" 3. ", "x больше, чем y") : console.log(" 3. ", "x не больше, чем y");
 
-// 4
+// // 4
 
-let enterNum = prompt("Введите число");
+// let enterNum = prompt("Введите число");
 
-if (enterNum % 2 == 0){
-    console.log(" 4. ", `Число ${enterNum} четное`);
-}
-else{
-    console.log(" 4. ", `Число ${enterNum} нечетное`);
-}
+// if (enterNum % 2 == 0){
+//     console.log(" 4. ", `Число ${enterNum} четное`);
+// }
+// else{
+//     console.log(" 4. ", `Число ${enterNum} нечетное`);
+// }
 
 // 5
 
-let numOne = prompt("first number:");
-let numTwo = prompt("second number:");
-let numThree = prompt("third number:");
+// let numOne = prompt("first number:");
+// let numTwo = prompt("second number:");
+// let numThree = prompt("third number:");
 
-console.log(" 5. ", Math.max(numOne, numTwo, numThree));
+// console.log(numOne, numTwo, numThree);
+
+// if ((+numOne > +numTwo) && (+numOne > +numThree)){
+//     console.log(numOne);
+// }
+// else if((+numTwo > +numThree) && (+numTwo > +numOne)){
+//     console.log(numTwo);
+// }
+// else{
+//     console.log(numThree);
+// }
+
+//console.log(" 5. ", Math.max(numOne, numTwo, numThree));
 
