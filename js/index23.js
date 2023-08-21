@@ -27,9 +27,13 @@ console.log("area:", objCopy.area())
 
 // 4
 
-let itemS = function(...items){ 
-    let sum = 0;
-    for (let item of items) sum += item;
-    return sum;
+function itemS(...items){
+    let itemSum = items.reduce(function(sum, item){
+        sum += item
+        return sum
+    }, 0)
+    console.log(items);
+    console.log(itemSum);
 }
-console.log(itemS(1, 2, 3, 8, 6));
+itemS(1, 2, 3, 8, 6, 1, 4);
+
