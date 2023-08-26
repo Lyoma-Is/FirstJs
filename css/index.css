@@ -1,0 +1,23 @@
+span{
+    display: block;
+}
+h2{
+    color: lightgreen;
+}
+
+.block-1{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+    cursor: pointer;
+}      
+
+.block-2{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    cursor: pointer;
+}
+.active{
+    background-color: greenyellow;
+}
