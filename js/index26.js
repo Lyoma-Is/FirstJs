@@ -17,12 +17,7 @@ function active(){
     item_3.classList.remove('active');
     this.classList.toggle('active');
 }
-list.forEach(item =>{ 
-        item.addEventListener('click', (e) =>{
-        list.forEach(el=>{ el.classList.remove('active'); });
-        item.classList.add('active')
-    })
-})
+
 function changeInfo(){
     let src = this.firstElementChild.firstElementChild.src
     let text = this.lastElementChild.innerText
